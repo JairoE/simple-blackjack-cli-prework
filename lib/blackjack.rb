@@ -32,7 +32,7 @@ end
 
 def hit?(num)
   prompt_user
-  input = get_user_input
+  get_user_input
   if input == 'h'
     novo = deal_card
     display_card_total(novo + num)
