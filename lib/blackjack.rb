@@ -33,15 +33,7 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input == 'h'
-    novo = deal_card
-    display_card_total(novo + num)
-  elsif get_user_input == 's'
-    display_card_total(num)
-  else
-    invalid_command
-    prompt_user
-  end
+
 
 
 
