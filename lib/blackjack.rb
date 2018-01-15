@@ -32,7 +32,8 @@ end
 
 def hit?(num)
   prompt_user
-  get_user_input
+  input = get_user_input
+
 
 
 
